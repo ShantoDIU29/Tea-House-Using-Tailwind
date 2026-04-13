@@ -8,7 +8,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="style.css">
 <script src="https://kit.fontawesome.com/5463a58722.js" crossorigin="anonymous"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -25,6 +25,80 @@
    
 </head>
 <body>
+
+  <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+    <header class="pt-10 mb-20">
+      <!-- Header content wrapper -->
+      <div class="flex gap-12 items-center mb-8">
+        <!-- text content -->
+        <div class="flex-1">
+          <h1 class="text-5xl md:text-7xl font-bold mb-4">
+            It's good <br>
+            tea time <br>
+            at The Tea House
+          </h1>
+          <p class="text-gray-500 text-lg mb-6 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+          <button class="bg-gradient-to-r from-clifford to-orange-500 text-white px-6 py-3 rounded cursor-pointer hover:shadow-lg transition">Explore More <i class="fa-solid fa-arrow-right -rotate-45 ml-2"></i></button>
+        </div>
+        <!-- img content -->
+        <div class="flex-1 relative">
+          <img class="w-full rounded-lg"height="655"width="498" src="images/banner.png" alt="Tea House Banner">
+                <div class="absolute flex justify-center items-center h-6 w-64 bottom-1 left-8 ">
+        <div class="flex items-center bg-white p-8 rounded-lg shadow-md">
+          <!-- icon -->
+          <div class="text-5xl mb-3"><i class="fa-solid fa-star text-yellow-400"></i></div>
+          <!-- rating info -->
+          <div class="text-center ml-2">
+            <h2 class="text-2xl font-bold text-clifford">5.00</h2>
+            <p class="text-gray-500 text-sm">Trust Pilot Ratings</p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      </div>
+    </header>
+
+    <!-- Feature product section -->
+     <section class="py-8 lg:py-24">
+<!-- title -->
+ <div class="text-center mb-12">
+  <h1 class="text-3xl md:text-5xl font-bold mb-2">Our Featured Products</h1>
+  <p class="text-gray-500 max-w-xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+ </div>
+ <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+  <!-- Milk Tea Card -->
+  <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden p-4">
+    <div class="flex justify-center mb-4">
+      <img class="w-40 h-40 object-contain" src="images/tea-1.png" alt="Milk Tea">
+    </div>
+    <h2 class="font-bold text-xl text-center mb-2">Milk Tea</h2>
+    <p class="text-gray-600 text-sm text-center">Creamer could be replaced by fresh milk</p>
+  </div>
+  <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden p-4">
+    <div class="flex justify-center mb-4">
+      <img class="w-40 h-40 object-contain" src="images/tea-2.png" alt="Milk Tea">
+    </div>
+    <h2 class="font-bold text-xl text-center mb-2">Black Tea</h2>
+    <p class="text-gray-600 text-sm text-center">Creamer could be replaced by fresh milk</p>
+  </div>
+  <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden p-4">
+    <div class="flex justify-center mb-4">
+      <img class="w-40 h-40 object-contain" src="images/tea-3.png" alt="Milk Tea">
+    </div>
+    <h2 class="font-bold text-xl text-center mb-2">Lemon Tea</h2>
+    <p class="text-gray-600 text-sm text-center">Creamer could be replaced by fresh milk</p>
+  </div>
+  <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden p-4">
+    <div class="flex justify-center mb-4">
+      <img class="w-40 h-40 object-contain" src="images/tea-4.png" alt="Milk Tea">
+    </div>
+    <h2 class="font-bold text-xl text-center mb-2">Green Tea</h2>
+    <p class="text-gray-600 text-sm text-center">Creamer could be replaced by fresh milk</p>
+  </div>
+ </div>
+     </section>
+  </main>
   
 </body>
 </html>

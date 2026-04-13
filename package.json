@@ -1,0 +1,27 @@
+{
+  "name": "tea-house-using-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShantoDIU29/Tea-House-Using-Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ShantoDIU29/Tea-House-Using-Tailwind/issues"
+  },
+  "homepage": "https://github.com/ShantoDIU29/Tea-House-Using-Tailwind#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2"
+  }
+}
