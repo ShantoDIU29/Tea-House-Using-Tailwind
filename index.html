@@ -60,7 +60,7 @@
     <!-- Feature product section -->
     <section class="py-8 lg:py-24">
       <div class="text-center mb-12">
-        <h1 class="text-3xl md:text-5xl font-bold mb-2">Our Featured Products</h1>
+        <h2 class="text-3xl md:text-5xl font-bold mb-2">Our Featured Products</h2>
         <p class="text-gray-500 max-w-xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
       </div>
       <div class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
@@ -111,14 +111,16 @@
         </div>
         <!-- text section -->
         <div>
-          <h1 class="text-5xl font-bold mb-4">Great Tea, Freshly Presented</h1>
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">Great Tea, Freshly Presented</h2>
           <p class="text-gray-500">The meaning of Gong Cha in Chinese is to provide the best tea to the emperor from all possessions. It represents the highest quality and self-expectation. Established in 2006, Gong Cha has been deeply appreciated by its customers because of positive word of mouth and unique customized service originating from Taiwan.</p>
-          <br>
-          <h1 class="text-2xl font-bold mb-5">Unique Taste</h1>
-          <p>A unique and different style from other teapots gives a luxurious and minimalist impression.</p>
-          <br>
-          <h1 class="text-2xl font-bold mb-5">Premium Quality</h1>
-          <p>Premium quality makes tea service feel more elegant and stay durable through daily use.</p>
+          <div class="mt-8">
+            <h3 class="text-2xl font-bold mb-3">Unique Taste</h3>
+            <p>A unique and different style from other teapots gives a luxurious and minimalist impression.</p>
+          </div>
+          <div class="mt-6">
+            <h3 class="text-2xl font-bold mb-3">Premium Quality</h3>
+            <p>Premium quality makes tea service feel more elegant and stay durable through daily use.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -189,7 +191,64 @@
         </article>
       </div>
     </section>
+
+    
+    
   </main>
+  <!-- footer section -->
+  <footer class="bg-orange-100 text-gray-700">
+    <div class="mx-auto max-w-screen-xl px-5 py-12 sm:px-8 lg:px-28">
+      <div class="flex flex-col gap-6 border-b border-orange-200 pb-8 md:flex-row md:items-center md:justify-between">
+        <img class="h-10 w-auto" src="./images/cup.png" alt="Tea House logo cup">
+        <div class="flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+          <p class="text-sm font-medium">Ready to get started?</p>
+          <button class="rounded-lg bg-gradient-to-r from-orange-500 to-red-500 px-6 py-3 font-semibold text-white transition hover:shadow-lg">Get Started</button>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 gap-10 pt-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <h3 class="text-lg font-bold">Quick Links</h3>
+          <ul class="mt-4 space-y-3 text-sm text-gray-600">
+            <li><a class="hover:text-orange-500" href="#">Home</a></li>
+            <li><a class="hover:text-orange-500" href="#">About Us</a></li>
+            <li><a class="hover:text-orange-500" href="#">Insurance</a></li>
+            <li><a class="hover:text-orange-500" href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold">Our Service</h3>
+          <ul class="mt-4 space-y-3 text-sm text-gray-600">
+            <li><a class="hover:text-orange-500" href="#">Life Insurance</a></li>
+            <li><a class="hover:text-orange-500" href="#">Car Insurance</a></li>
+            <li><a class="hover:text-orange-500" href="#">Health Insurance</a></li>
+            <li><a class="hover:text-orange-500" href="#">House Insurance</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold">Help</h3>
+          <ul class="mt-4 space-y-3 text-sm text-gray-600">
+            <li><a class="hover:text-orange-500" href="#">FAQs</a></li>
+            <li><a class="hover:text-orange-500" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold">Subscribe to our newsletter</h3>
+          <form class="mt-4 flex items-center gap-3">
+            <input class="w-full border-b border-gray-400 bg-transparent py-2 text-sm outline-none placeholder:text-gray-500" type="email" placeholder="Email address">
+            <button class="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white" type="submit" aria-label="Subscribe">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </form>
+          <div class="mt-6 flex gap-4 text-xl">
+            <a class="hover:text-orange-500" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="hover:text-orange-500" href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a class="hover:text-orange-500" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="pt-10 text-center text-sm text-gray-500">© 2027 UIDesign.to - All rights reserved.</p>
+    </div>
+  </footer>
   
 </body>
 </html>
